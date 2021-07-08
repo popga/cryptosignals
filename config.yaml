@@ -1,0 +1,6 @@
+base:
+  port: 8088
+  logs:
+    folder: "logs"
+  data:
+    folder: "data"

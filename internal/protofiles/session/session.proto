@@ -1,0 +1,12 @@
+syntax = "proto3";
+package protofiles;
+
+message Session {
+    string id = 1;
+    string email = 2;
+    string username = 3;
+    uint32 role = 4;
+    bool confirmed = 5;
+    bool active = 6;
+    uint64 subscription = 7;
+}
